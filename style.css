@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gallery img {
+    width: 500px;
+    height: 250px;
+    border-radius: 100px;
+    display: inline-block;
+    margin: 50px;
+}
+
+h4 {
+    text-align: center;
+    padding: 30px 30px;
+    font-size: 30px;
+}
+
+ul {
+    list-style: none;
+    background-color: orangered;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    font-size: 20px;
+    padding: 30px;
+    display: inline;
+    color: white;
+    text-decoration: none;
+
+}
+
+.aboutus h4 {
+    text-align: center;
+    padding: 30px 30px;
+    font-size: 30px;
+}
+
+.aboutus p {
+    font-family: serif;
+    column-count: 4;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 15px;
+    column-gap: 50px;
+    text-align: justify;
+    column-rule-style: dashed;
+    margin: 4px;
+    column-rule-width: 5px;
+
+
+}
+
+.needhelp {
+    text-align: center;
+    background-image: linear-gradient(crimson, rgb(14, 90, 116));
+    font-size: 30px;
+    color: white;
+    padding: 20px 20px;
+}
+
+form {
+    text-align: center;
+}
+
+form h4 {
+    padding: 30px 30px;
+    font-size: 30px;
+}
+
+button {
+    background-color: crimson;
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: green;
+}
+
+footer {
+    background-color: crimson;
+    height: 20vh;
+    width: 100%;
+}
+
+
+
+.footer a {
+    text-align: left;
+    margin-top: 30px;
+
+
+}
+
+.copyright p {
+
+    text-align: center;
+    color: white;
+}
