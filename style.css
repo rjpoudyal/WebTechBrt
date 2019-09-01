@@ -18,23 +18,42 @@ h4 {
     font-size: 30px;
 }
 
+.logo {
+    color: white;
+    font-family: monospace;
+    font-size: 25px;
+    margin: 5px 5px;
+    padding-right: 20px;
+}
+
+
 ul {
-    list-style: none;
-    background-color: orangered;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+
 }
 
 li {
-    display: inline;
+    float: left;
 }
 
-a {
-    font-size: 20px;
-    padding: 30px;
-    display: inline;
+li a {
+    display: block;
     color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-
 }
+
+li a:hover {
+    background-color: orangered;
+}
+
+
 
 .aboutus h4 {
     text-align: center;
